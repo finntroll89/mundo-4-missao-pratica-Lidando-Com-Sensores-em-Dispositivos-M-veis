@@ -1,0 +1,45 @@
+[versions]
+agp = "8.6.1"
+appcompatVersion = "1.7.0"
+composeBom = "2024.09.03"
+composeBomVersion = "2024.09.03"
+composeMaterial = "1.4.0"
+coreSplashscreen = "1.0.1"
+googlePlayServicesWearable = "18.2.0"
+kotlin = "1.9.0"
+materialVersion = "1.12.0"
+playServicesWearable = "18.0.0"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.9.2"
+constraintlayout = "2.1.4"
+playServicesWearableVersion = "18.2.0"
+material3Android = "1.3.0"
+
+[libraries]
+activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activity" }
+appcompat-v161 = { module = "androidx.appcompat:appcompat", version.ref = "appcompatVersion" }
+compose-bom = { module = "androidx.compose:compose-bom", version.ref = "composeBom" }
+compose-bom-v20230800 = { module = "androidx.compose:compose-bom", version.ref = "composeBomVersion" }
+compose-foundation = { module = "androidx.wear.compose:compose-foundation", version.ref = "composeMaterial" }
+compose-material = { module = "androidx.wear.compose:compose-material", version.ref = "composeMaterial" }
+core-splashscreen = { module = "androidx.core:core-splashscreen", version.ref = "coreSplashscreen" }
+material-v1110 = { module = "com.google.android.material:material", version.ref = "materialVersion" }
+play-services-wearable = { group = "com.google.android.gms", name = "play-services-wearable", version.ref = "playServicesWearable" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+play-services-wearable-v1810 = { module = "com.google.android.gms:play-services-wearable", version.ref = "playServicesWearableVersion" }
+play-services-wearable-v1820 = { module = "com.google.android.gms:play-services-wearable", version.ref = "googlePlayServicesWearable" }
+ui = { module = "androidx.compose.ui:ui" }
+ui-test-junit4 = { module = "androidx.compose.ui:ui-test-junit4" }
+ui-test-manifest = { module = "androidx.compose.ui:ui-test-manifest" }
+ui-tooling = { module = "androidx.compose.ui:ui-tooling" }
+ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview" }
+material3-android = { group = "androidx.compose.material3", name = "material3-android", version.ref = "material3Android" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
